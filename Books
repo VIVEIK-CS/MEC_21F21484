@@ -1,11 +1,12 @@
 class Book
 {
-	int bID;
-	String title,author;
+	int book_ID;
+	String title
+	String author;
 
 	void input(int a, String b, String c)
 	{
-		bID = a;
+		book_ID = a;
 		title = b;
 		author = c;
 	}
