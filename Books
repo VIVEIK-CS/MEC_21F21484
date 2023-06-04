@@ -1,0 +1,23 @@
+class Book
+{
+	int bID;
+	String title,author;
+
+	void input(int a, String b, String c)
+	{
+		bID = a;
+		title = b;
+		author = c;
+	}
+	void display()
+	{
+		SOPln("Book ID: "+bID);
+		SOPln("Book Title: ",+title);
+		SOPln("Book Author: ",+author);
+	}
+}
+class AudioBook implements Book
+{
+	int length;
+	String narrator;
+}
